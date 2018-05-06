@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+      body{
+        height: 3000px;
+      }
+      button{
+        position: fixed;
+        top: 400px;
+      }
+  </style>
+</head>
+<body>
+    <button onclick="getScrollTop()">获取高度</button>
+    <script>
+//        window.onscroll=function getScrollTop(){
+//          console.info(12)
+//          var scrollTop=0;
+//          if(document.documentElement&&document.documentElement.scrollTop)
+//          {
+//            scrollTop=document.documentElement.scrollTop;
+//          }
+//          else if(document.body)
+//          {
+//            scrollTop=document.body.scrollTop;
+//          }
+//          console.info(scrollTop) ;
+//        }
+        var arr = [1,2,6,84,3,4]
+       var arr1 = arr.sort(function (a,b) {
+            return b-a;
+        })
+        console.info(arr1);
+
+    </script>
+</body>
+</html>

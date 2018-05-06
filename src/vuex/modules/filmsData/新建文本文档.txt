@@ -1,0 +1,4 @@
+getters:   用于数据的获取
+mutations: 用于数据的修改
+action :   用于触发行为
+index : 用于保存变量  输出
